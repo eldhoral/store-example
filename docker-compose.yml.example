@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: ${APP_NAME}
+    image: ${APP_NAME}-image
+    build:
+      context: .
+      dockerfile: ./app/docker/staging/Dockerfile
+    ports: 
+      - ${HTTP_SERVER_PORT}:${HTTP_SERVER_PORT}
+  
+  db:
+    image: mysql:8.0
+    restart: always
+    environment:
+      - MYSQL_DATABASE=${DB_NAME}
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
+    ports:
+      - ${DB_PORT_FORWARDING}:${DB_PORT}
+    volumes:
+      - db:/var/lib/mysql
+
+volumes:
+  db:
+    driver: local

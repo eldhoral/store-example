@@ -170,8 +170,6 @@ When contributing to this repository, please note we have a code standards, plea
 * It's recommended to run `make test` command before submit a pull request.
 
 * Please update the postman collection if you modify or create new endpoint.
-* CMS
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16666203-9e865a79-c825-49c6-ba81-db61d023b1bc?action=collection%2Ffork&collection-url=entityId%3D16666203-9e865a79-c825-49c6-ba81-db61d023b1bc%26entityType%3Dcollection%26workspaceId%3D94b64e98-ca7a-420a-824f-45deac156947)
-* Mobile
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16666203-94ba24a7-a997-4374-bf78-67a3ae7f129f?action=collection%2Ffork&collection-url=entityId%3D16666203-94ba24a7-a997-4374-bf78-67a3ae7f129f%26entityType%3Dcollection%26workspaceId%3D94b64e98-ca7a-420a-824f-45deac156947)
+* Postman
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/16666203-6b6829c2-3c59-4bee-9ce1-5eefa592aa82?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D16666203-6b6829c2-3c59-4bee-9ce1-5eefa592aa82%26entityType%3Dcollection%26workspaceId%3Ded506751-0e57-44b6-bef7-5be25449f897)
 
